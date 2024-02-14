@@ -80,6 +80,7 @@ button {
     height: 3rem;
     margin-left: 1.5rem;
     font-size: 1.5rem;
+    border-radius: 1rem;
 }
 
 #cart{
@@ -92,4 +93,52 @@ button {
 button:hover {
     background-color: #1A4031;
     cursor: pointer;
+}
+
+@media (max-width: 800px) {
+    #card{
+        margin: 0 auto;
+        width: 90%;
+        height: auto;
+        margin-top: 4rem;
+        background-color: white;
+        border-top-right-radius: 4rem;
+    }
+    
+    img{
+        height: 15rem;
+        width: 90%;
+        border-radius: 0px;
+        position: absolute;
+        border-top-left-radius: 2rem;
+        border-top-right-radius: 3.5rem;
+    }
+
+    #information{
+        height: auto;
+        width: 80%;
+        margin-left: 2.5rem;
+        margin-top: 16rem;
+    }
+
+    button {
+        background-color: #3D8168;
+        font-family: monospace;
+        color: white;
+        border: none;
+        width: 90%;
+        height: 3rem;
+        margin-left: 1.5rem;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        border-radius: 1rem;
+    }
+
+    #cart{
+        width: 2.2rem;
+        height: 2.2rem;
+        position: relative;
+        top: 0.4rem;
+        border-radius: 0px;
+    }
 }

@@ -14,7 +14,11 @@
 
     <div id="card">
 
-      <img src="/images/image-product-desktop.jpg" alt="Perfume">
+      <picture>
+        <source media="(max-width: 800px)" srcset="/images/image-product-mobile.jpg">
+        <img src="/images/image-product-desktop.jpg" alt="Perfume"> <!--Imagen Desktop-->
+      </picture>
+
 
       <section id="information">
         <span >Perfume</span>
