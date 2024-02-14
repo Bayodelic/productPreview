@@ -83,8 +83,13 @@ button {
 }
 
 #cart{
-    width: 1.2rem;
-    height: 1.2rem;
+    width: 1.3rem;
+    height: 1.3rem;
     padding: 0px;
     border-radius: 0px;
+}
+
+button:hover {
+    background-color: #1A4031;
+    cursor: pointer;
 }
